@@ -1,0 +1,41 @@
+.user-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.form-control {
+    padding: 1rem 0;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    margin-bottom: 0.25rem;
+    width: 100%;
+}
+
+.form-control input {
+    font: inherit;
+    border: 1px #d8d6d6 solid;
+    border-radius: 2px;
+}
+
+.form-control input:focus {
+    outline-color: #b65252;
+}
+
+.btn {
+    border: 1px solid #b65252;
+    background-color: white;
+    font: inherit;
+    color: #b65252;
+    padding: .2rem .5rem;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #b65252;
+    color: white;
+    cursor: pointer;
+}

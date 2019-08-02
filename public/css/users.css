@@ -1,0 +1,18 @@
+.users-list {
+    list-style: none;
+}
+
+.users-list__item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.users-list__item:before {
+    content: '';
+    display: inline-block;
+    background-image: url('/img/user.png');
+    padding: 1rem;
+    margin-right: .5rem;
+    background-size: contain;
+}
